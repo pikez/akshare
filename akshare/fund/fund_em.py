@@ -1021,7 +1021,7 @@ def fund_value_estimation_em(symbol: str = "全部") -> pd.DataFrame:
         "orderType": "desc",
         "canbuy": "0",
         "pageIndex": "1",
-        "pageSize": "20000",
+        "pageSize": "30000",
         "_": int(time.time() * 1000),
     }
     r = requests.get(url, params=params, headers=headers)
